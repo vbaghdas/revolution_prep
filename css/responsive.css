@@ -1,0 +1,75 @@
+/*==========================================================
+
+                    START MEDIA QUERIES
+
+===========================================================*/
+@media(max-width: 1199px) {
+    .banner-bg {
+        background: url(../assets/banner_1199px.png) no-repeat;
+        background-size: cover;
+    }
+    .banner-content {
+        padding: 5rem 0 5rem 0;
+    }
+}
+@media(max-width: 991px) {
+    .banner-bg {
+        background: url(../assets/banner_991px.png) no-repeat;
+        background-size: cover;
+    }
+    .banner-content {
+        padding: 4rem 0 4rem 0;
+    }
+}
+@media(max-width: 767px) {
+    .banner-bg {
+        background: url(../assets/banner_767px.png) no-repeat;
+        background-size: cover;
+    }
+    .banner-content {
+        padding: 2rem 0 2rem 0;
+    }
+    .about-header {
+        text-align: center;
+    }
+    .card-deck .card {
+        margin-bottom: 1.5rem;
+    }
+    .card-deck .card:not(:first-child) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+@media(max-width: 575px) {
+    .header {
+        display: none;
+    }
+    .navbar {
+        padding-top: .65rem;
+        padding-bottom: .65rem;
+    }
+    .navbar-brand .logo {
+        height: 2.557rem;
+    }
+    .banner {
+        padding-bottom: 110%;
+    }
+    .banner-bg {
+        background: url(../assets/banner_575px.png) no-repeat;
+        background-size: cover;
+    }
+    .banner-content {
+        text-align: center;
+    }
+    .testimonials {
+        padding: 0;
+    }
+    .contact input[type="text"],
+    .contact input[type="email"],
+    .contact textarea {
+        width: 100%;
+    }
+    .contact .grade-menu {
+        width: 100%;
+    }
+}
