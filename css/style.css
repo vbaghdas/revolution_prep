@@ -111,9 +111,11 @@ h2 {
     color: #FF8000;
 }
 .navbar .btn-primary {
-    color: #FF8000!important;
     border-color: #FF8000!important;
     background: none!important;
+    color: #FF8000!important;
+    width: 200px;
+    margin: 0 auto;
 }
 .navbar .btn-primary:hover {
     color: #FFF!important;
